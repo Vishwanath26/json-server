@@ -1,11 +1,14 @@
 // import other routes
 const mainRoutes = require('./main');
+const fs = require('fs');
 
 const appRouter = (app, fs) => {
-
+	app.set('view engine', 'html');
+	
     // default route
     app.get('/', (req, res) => {
-        res.send('welcome to the json-server');
+    	const html = fs.readFileSync('./data/endpoints.html', 'utf8')
+        res.send(html);
     });
 
     // all other routes
