@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "name": "king arthur01",
+      "password": "password01",
+      "profession": "king01",
+      "id": 1
+    },
+    {
+      "name": "king arthur2",
+      "password": "parliament",
+      "profession": "brexit killer",
+      "id": 3
+    }
+  ],
+  "posts": [
+    {
+      "id": 0,
+      "title": "title0",
+      "author": "author0",
+      "views": 100,
+      "reviews": 31
+    },
+    {
+      "id": 1,
+      "title": "title1",
+      "author": "author1",
+      "views": 200,
+      "reviews": 72
+    },
+    {
+      "id": 2,
+      "title": "title2",
+      "author": "author2",
+      "views": 102,
+      "reviews": 12
+    }
+  ],
+  "authors": [
+    {
+      "id": 0,
+      "first_name": "C",
+      "last_name": "iq",
+      "posts": 45
+    }
+  ]
+}
